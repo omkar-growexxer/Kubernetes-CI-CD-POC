@@ -7,7 +7,7 @@ pipeline{
         maven 'Maven3'
     }
     environment {
-        APP_NAME = "kubernets_CI_CD_Pipeline"
+        APP_NAME = "kubernets-ci-cd-pipeline"
         RELEASE = "1.0.0"
         DOCKER_USER = "omkarnavik"
         DOCKER_PASS = 'dockerhub'
