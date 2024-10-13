@@ -26,7 +26,7 @@ pipeline{
     
         stage("Checkout from SCM"){
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/omkar-growexxer/Kubernetes-CI-CD-POC.git'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/omkar-growexxer/Kubernetes-CI-CD-POC'
             }
 
         }
